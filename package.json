@@ -1,0 +1,10 @@
+{
+  "name": "next-step",
+  "version": "1.0.0",
+  "description": "Next Step - Your Future Awaits",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "start": "npx serve ."
+  }
+}
