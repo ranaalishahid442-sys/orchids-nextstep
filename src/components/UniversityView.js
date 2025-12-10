@@ -49,6 +49,14 @@ window.UniversityView = function (fieldId, uniId) {
                   </span>
                   <h2 style="font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 800; line-height: 1; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">${uni.name}</h2>
               </div>
+              
+              <!-- Official Website Button -->
+              <div style="position: absolute; bottom: var(--spacing-lg); right: var(--spacing-lg); z-index: 2;">
+                  <a href="${uni.website}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="text-decoration: none; box-shadow: var(--shadow-xl);">
+                      Visit Official Website ↗
+                  </a>
+              </div>
+
               <div class="torn-edge-bottom" style="bottom: -1px; z-index: 3;"></div>
           </div>
 

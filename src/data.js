@@ -12,6 +12,7 @@ window.careerData = {
         universities: [
             {
                 id: "uhs",
+                website: "https://www.uhs.edu.pk/",
                 name: "University of Health Sciences (UHS), Lahore",
                 criteria: "FSc (Pre-Medical) with min 60%, MDCAT passed.",
                 formula: { matric: 10, fsc: 40, test: 50 },
@@ -19,6 +20,7 @@ window.careerData = {
             },
             {
                 id: "kemU",
+                website: "https://kemu.edu.pk/",
                 name: "King Edward Medical University (KEMU), Lahore",
                 criteria: "High merit in MDCAT and FSc.",
                 formula: { matric: 10, fsc: 40, test: 50 },
@@ -26,6 +28,7 @@ window.careerData = {
             },
             {
                 id: "aku",
+                website: "https://www.aku.edu/",
                 name: "Aga Khan University (AKU), Karachi",
                 criteria: "AKU Entry Test + Interview.",
                 formula: { matric: 0, fsc: 0, test: 100 }, // Simplified for calculator, AKU has complex internal scoring
@@ -33,6 +36,7 @@ window.careerData = {
             },
             {
                 id: "dow",
+                website: "https://www.duhs.edu.pk/",
                 name: "Dow University of Health Sciences, Karachi",
                 criteria: "Sindh Domicile, MDCAT.",
                 formula: { matric: 10, fsc: 40, test: 50 },
@@ -40,6 +44,7 @@ window.careerData = {
             },
             {
                 id: "rmu",
+                website: "https://rmur.edu.pk/",
                 name: "Rawalpindi Medical University, Rawalpindi",
                 criteria: "Punjab Domicile, MDCAT.",
                 formula: { matric: 10, fsc: 40, test: 50 },
@@ -60,6 +65,7 @@ window.careerData = {
         universities: [
             {
                 id: "nust-cs",
+                website: "https://nust.edu.pk/",
                 name: "NUST, Islamabad",
                 criteria: "FSc (Pre-Eng/ICS) min 60%, NET passed.",
                 formula: { matric: 10, fsc: 15, test: 75 },
@@ -67,6 +73,7 @@ window.careerData = {
             },
             {
                 id: "fast",
+                website: "https://www.nu.edu.pk/",
                 name: "FAST-NUCES (All Campuses)",
                 criteria: "FSc min 60%, NU Test or SAT.",
                 formula: { matric: 0, fsc: 50, test: 50 }, // Approx formula
@@ -74,6 +81,7 @@ window.careerData = {
             },
             {
                 id: "pucit",
+                website: "https://pucit.edu.pk/",
                 name: "PUCIT (Punjab University), Lahore",
                 criteria: "FSc min 60%, PU Entry Test.",
                 formula: { matric: 25, fsc: 75, test: 0 }, // PU often uses academic record heavily, formula varies
@@ -81,6 +89,7 @@ window.careerData = {
             },
             {
                 id: "giki-cs",
+                website: "https://giki.edu.pk/",
                 name: "GIKI, Topi",
                 criteria: "FSc min 60%, GIKI Entry Test.",
                 formula: { matric: 0, fsc: 15, test: 85 },
@@ -88,6 +97,7 @@ window.careerData = {
             },
             {
                 id: "comsats",
+                website: "https://www.comsats.edu.pk/",
                 name: "COMSATS, Islamabad",
                 criteria: "FSc min 50%, NTS-NAT.",
                 formula: { matric: 10, fsc: 40, test: 50 },
@@ -108,6 +118,7 @@ window.careerData = {
         universities: [
             {
                 id: "nust-eng",
+                website: "https://nust.edu.pk/",
                 name: "NUST, Islamabad",
                 criteria: "FSc (Pre-Eng) min 60%, NET passed.",
                 formula: { matric: 10, fsc: 15, test: 75 },
@@ -115,6 +126,7 @@ window.careerData = {
             },
             {
                 id: "uet",
+                website: "https://uet.edu.pk/",
                 name: "UET, Lahore",
                 criteria: "FSc min 60%, ECAT.",
                 formula: { matric: 0, fsc: 70, test: 30 }, // 70-30 rule often used
@@ -122,6 +134,7 @@ window.careerData = {
             },
             {
                 id: "giki-eng",
+                website: "https://giki.edu.pk/",
                 name: "GIKI, Topi",
                 criteria: "FSc min 60%, GIKI Entry Test.",
                 formula: { matric: 0, fsc: 15, test: 85 },
@@ -129,6 +142,7 @@ window.careerData = {
             },
             {
                 id: "pieas",
+                website: "http://www.pieas.edu.pk/",
                 name: "PIEAS, Islamabad",
                 criteria: "FSc min 60%, PIEAS Test.",
                 formula: { matric: 15, fsc: 25, test: 60 },
@@ -136,6 +150,7 @@ window.careerData = {
             },
             {
                 id: "ned",
+                website: "https://www.neduet.edu.pk/",
                 name: "NED University, Karachi",
                 criteria: "Sindh Domicile, Entry Test.",
                 formula: { matric: 0, fsc: 50, test: 50 },
